@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelImport targetTable="sale_data">
+	<repeatImport>    
+		<column  sourceColumn="B2" targetColumn="PNR" length="2"/>
+		<column  sourceColumn="C2" targetColumn="TICKET_DATE"/>
+		<column  sourceColumn="D2" targetColumn="TICKET_NUMBER"/>
+		<column  sourceColumn="E2" targetColumn="STATUS"/>
+		<column  sourceColumn="F2" targetColumn="AUDITOR"/>
+		<column  sourceColumn="G2" targetColumn="ORDER_DATE"/>
+		<column  sourceColumn="H2" targetColumn="AUDIT_DATE"/>
+		<!--<column  sourceColumn="I2" targetColumn="AUDIT_TIME"/>-->
+		<column  sourceColumn="J2" targetColumn="ORDER_NO"/>
+		<column  sourceColumn="K2" targetColumn="Ticket_Type"/>
+		<column  sourceColumn="L2" targetColumn="Flight_Date"/>
+		<column  sourceColumn="M2" targetColumn="AIRLINE_Code"/>
+		<column  sourceColumn="N2" targetColumn="Flight_No"/>
+		<column  sourceColumn="O2" targetColumn="Seat_Class"/>
+		<column  sourceColumn="P2" targetColumn="Depart_Code"/>
+		<column  sourceColumn="Q2" targetColumn="Arrive_Code"/>
+		<column  sourceColumn="R2" targetColumn="Passenger_Name"/>
+		<column  sourceColumn="S2" targetColumn="TICKET_NO"/>
+		<column  sourceColumn="T2" targetColumn="TICKET_NO_B"/>
+		<column  sourceColumn="U2" targetColumn="TICKET_PRICE"/>
+		<column  sourceColumn="V2" targetColumn="FUEL_COST"/>
+		<column  sourceColumn="W2" targetColumn="FUEL_TAX_COST"/>
+		<column  sourceColumn="X2" targetColumn="Buyers_rate"/>
+		<column  sourceColumn="Y2" targetColumn="sales_rate"/>
+		<column  sourceColumn="Z2" targetColumn="PAY_AMOUNT"/>
+		<column  sourceColumn="AA" targetColumn="settlement_price"/>
+		<column  sourceColumn="AA" targetColumn="settlement_price_B"/>
+		<column  sourceColumn="AB" targetColumn="transaction_fee"/>
+		<column  sourceColumn="AC" targetColumn="alipay_transaction_fee"/>
+		<column  sourceColumn="AD" targetColumn="fill_amount"/>
+		<column  sourceColumn="AD" targetColumn="fill_amount_b"/>
+		<column  sourceColumn="AE" targetColumn="agent_name"/>
+		<column  sourceColumn="AF" targetColumn="sale_name"/>
+		<column  sourceColumn="AG" targetColumn="TICKET_WAY"/>
+		<column  sourceColumn="AH" targetColumn="TICKET_BY"/>
+		<column  sourceColumn="AI" targetColumn="TICKET_START_DATE"/>
+		<column  sourceColumn="AJ" targetColumn="TICKET_END_DATE"/>
+		<column  sourceColumn="AK" targetColumn="PAY_DATE"/>
+		<column  sourceColumn="AL" targetColumn="PAY_ACCOUNT"/>
+		<column  sourceColumn="AM" targetColumn="Trading_TYPE"/>
+		<endCode>End</endCode>
+	</repeatImport>
+
+</excelImport>

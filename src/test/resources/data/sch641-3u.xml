@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelImport targetTable="airline_data">
+	<repeatImport>    
+		<column  sourceColumn="A7" targetColumn="AIRLINE_Code" length="2"/>
+		<column  sourceColumn="B7" targetColumn="TicketNo"/>
+		<column  sourceColumn="D7" targetColumn="SEAT_CLASS"/>
+		<column  sourceColumn="E7" targetColumn="Flight_No"/>
+		<column  sourceColumn="F7" targetColumn="Flight_Date"/>
+		<column  sourceColumn="G7" targetColumn="TICKET_DATE"/>
+		<column  sourceColumn="H7" targetColumn="TICKET_PRICE"/>
+		<column  sourceColumn="I7" targetColumn="FUEL_COST"/>
+		<column  sourceColumn="J7" targetColumn="FUEL_TAX_COST" />
+		<column  sourceColumn="M7" targetColumn="agency_fee"/>
+		<column  sourceColumn="N7" targetColumn="agency_rate"/>
+		<column  sourceColumn="O7" targetColumn="PAY_AMOUNT"/>
+		<column  sourceColumn="P7" targetColumn="ORDER_NO"/>
+		<column  sourceColumn="Q7" targetColumn="PNR"/>
+		<column  sourceColumn="S7" targetColumn="TICKET_BY"/>
+		<column  sourceColumn="T7" targetColumn="Trading_TYPE"/>
+		<column  sourceColumn="U7" targetColumn="bank_order_no"/>
+		<endCode>End</endCode>
+	</repeatImport>
+
+</excelImport>

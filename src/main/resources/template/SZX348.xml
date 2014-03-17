@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelImport targetTable="airline_data">
+	<repeatImport>    
+		<column  sourceColumn="A3" targetColumn="TicketNo"/>
+		<column  sourceColumn="D3" targetColumn="TICKET_PRICE"/>
+		<column  sourceColumn="E3" targetColumn="FUEL_COST"/>
+		<column  sourceColumn="E3" targetColumn="FUEL_TAX_COST"/>
+		<column  sourceColumn="F3" targetColumn="agency_fee"/>
+		<column  sourceColumn="G3" targetColumn="agency_rate"/>
+		<column  sourceColumn="H3" targetColumn="PAY_AMOUNT"/>
+		<column  sourceColumn="K3" targetColumn="AIRLINE_Code" length="2" startIndex="0"/>
+		<column  sourceColumn="K3" targetColumn="Flight_No"/>
+		<column  sourceColumn="L3" targetColumn="SEAT_CLASS"/>
+		<column  sourceColumn="M3" targetColumn="TICKET_DATE"/>
+		<column  sourceColumn="N3" targetColumn="Flight_Date"/>
+		<column  sourceColumn="O3" targetColumn="PNR"/>
+		<column  sourceColumn="R3" targetColumn="ORDER_NO"/>
+		<column  sourceColumn="S3" targetColumn="Trading_TYPE"/>
+		<column  sourceColumn="T3" targetColumn="bank_order_no"/>
+		<endCode>End</endCode>
+	</repeatImport>
+	<!-- 校验器定义 -->
+	<validators>
+		<validator name="validator1" value="com.nami.excelimport.validate.NotNullValidator" />
+	</validators>
+
+	<!-- 需要校验的单元格 -->
+	<cell-validators>
+		<cell-validator cellname="E3">
+			<validator name="validator1" />
+		</cell-validator>
+		<cell-validator cellname="O3">
+			<validator name="validator1" />
+		</cell-validator>
+	</cell-validators>
+	
+</excelImport>
